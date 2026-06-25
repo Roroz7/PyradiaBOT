@@ -94,6 +94,6 @@ if __name__ == "__main__":
     try:
         if not os.path.exists(CONFIG_FILE):
             save_json(CONFIG_FILE, DEFAULT_CONFIG)
-        bot.run("MTM5MTg3Mzg4NTA3NDYyMDQ5Ng.Gg_RSq.9T2WOrd5Zeu6xGxkKa6Q3hShNYFRdAeV4Q2zfw")  # Remplace par ton token !
+        bot.run("MTUxOTM3MTkxMDQ1MzEzMzMxMg.GHg3Yz.a_-LpIdsnDJPX9ic7NwHjJARmzGbNdc9pTT-8k")  # Remplace par ton token !
     except Exception as e:
         logging.critical(f"Erreur au lancement du bot : {e}")
